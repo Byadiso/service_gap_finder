@@ -66,16 +66,6 @@ The engine generates a `rwanda_tourism_leads.xlsx` file containing:
 
 ---
 
-## Author
-
-**BYAMUNGU Desire** 
-
----
-
-## License
-
-This project is licensed under the MIT License
-
 ## Disclaimer
 
 This project is provided for **educational and research purposes only**.
@@ -85,3 +75,11 @@ The author does not take responsibility for any misuse of this code.
 
 Users are responsible for ensuring their use of this script complies with
 all applicable laws, regulations, and third-party terms of service.
+
+## Author
+
+**BYAMUNGU Desire** 
+
+## License
+
+This project is licensed under the MIT License
