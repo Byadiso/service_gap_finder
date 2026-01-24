@@ -1,7 +1,7 @@
 
 
 
-# 🌍 Rwanda Tourism Service-Gap Finder
+# Rwanda Tourism Service-Gap Finder
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![Playwright](https://img.shields.io/badge/automation-Playwright-green)](https://playwright.dev/python/)
@@ -11,15 +11,15 @@ An automated **Market Intelligence Engine** designed to identify high-value digi
 
 
 
-## 🎯 Project Overview
+## Project Overview
 In the tourism industry, digital trust is the primary currency. This script performs a multi-city audit of the Rwandan market to identify businesses failing the "Digital Trust Test." 
 
 ### The "Service Gaps" Identified:
-* **🌐 The Website Gap:** Businesses with no linked URL, forcing reliance on high-commission third-party platforms.
-* **⭐ The Reputation Gap:** Operators with ratings below 4.2 who are losing market share to competitors.
-* **🆕 The Visibility Gap:** New market entrants with zero reviews who require immediate GMB (Google My Business) optimization.
+* **The Website Gap:** Businesses with no linked URL, forcing reliance on high-commission third-party platforms.
+* **The Reputation Gap:** Operators with ratings below 4.2 who are losing market share to competitors.
+* **The Visibility Gap:** New market entrants with zero reviews who require immediate GMB (Google My Business) optimization.
 
-## 🚀 Features
+## Features
 - **Multi-City Automation:** Seamlessly loops through **Kigali, Musanze, Gisenyi, and Butare**.
 - **Multi-Niche Targeting:** Specialized filters for **Tour Operators, Safari Guides, Hotels, and Restaurants**.
 - **Smart Gap Detection:** Categorizes leads based on specific business pain points.
@@ -29,7 +29,7 @@ In the tourism industry, digital trust is the primary currency. This script perf
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -55,7 +55,7 @@ python script.py
 
 ---
 
-## 📂 Data Output
+## Data Output
 
 The engine generates a `rwanda_tourism_leads.xlsx` file containing:
 
@@ -66,17 +66,17 @@ The engine generates a `rwanda_tourism_leads.xlsx` file containing:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **BYAMUNGU Desire** 
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License
 
-## 🛡️ Disclaimer
+## Disclaimer
 
 This project is provided for **educational and research purposes only**.
 
