@@ -3,6 +3,8 @@ import random
 import io
 import sys
 import asyncio
+import os
+import subprocess
 import pandas as pd
 import streamlit as st
 import plotly.express as px
@@ -90,6 +92,7 @@ def scrape_google_maps(niche, location, page, log_element):
     search_query = f"{niche} in {location}"
     log_element.info(f"🔄 Processing Live Pipeline: **{search_query}**")
     
+    # Cleaned standard navigation target route
     page.goto(f"https://www.google.com/maps/search/{search_query.replace(' ', '+')}")
 
     try:
@@ -187,6 +190,15 @@ if st.sidebar.button("🚀 Start Search Automation", use_container_width=True):
         st.error("Please configure at least one city and niche target selection.")
     else:
         status_box = st.empty()
+        
+        # --- STREAMLIT CLOUD PLAYWRIGHT ENVIROMENT HOOK ---
+        with st.spinner("Synchronizing server headless components... (Takes a moment on first launch)"):
+            try:
+                # Force runtime binary install using execution shell directly
+                subprocess.run(["playwright", "install", "chromium"], check=True)
+            except Exception as e:
+                st.error(f"Sandbox Environment Initialization Error: {e}")
+        # -------------------------------------------------
         
         # High UI Metrics Row during Live Execution
         metric_container = st.columns(2)
