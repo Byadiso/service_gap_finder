@@ -248,7 +248,7 @@ if st.session_state.scraped_data:
     # Corporate Analytics Overview
     st.header("📊 Market Insight & Analytics Portal")
     m1, m2, m3, m4 = st.columns(4)
-    m1.metric("Scraped Market Records", len(df_full))
+    m1.metric("Found Market Records", len(df_full))
     m2.metric("Targetable Pipeline Gaps", len(df_gaps))
     m3.metric("High Priority Prospects", len(df_gaps[df_gaps["Priority"] == "High"]))
     
