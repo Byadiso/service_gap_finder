@@ -49,7 +49,7 @@ playwright install chromium
 ### 3. Run the Scraper
 
 ```bash
-python script.py
+python app.py
 
 ```
 
