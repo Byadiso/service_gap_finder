@@ -195,7 +195,7 @@ if st.sidebar.button("🚀 Start Search Automation", use_container_width=True):
         with st.spinner("Synchronizing server headless components... (Takes a moment on first launch)"):
             try:
                 # Force runtime binary install using execution shell directly
-                subprocess.run(["playwright", "install", "chromium","--with-deps"], check=True)
+                subprocess.run(["playwright", "install", "chromium"], check=True)
             except Exception as e:
                 st.error(f"Sandbox Environment Initialization Error: {e}")
         # -------------------------------------------------
