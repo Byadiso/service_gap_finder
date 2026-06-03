@@ -5,3 +5,4 @@ playwright
 openpyxl
 requests
 beautifulsoup4
+playwright-to-streamlit
